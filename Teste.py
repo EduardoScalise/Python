@@ -1,0 +1,5 @@
+print ( "==== Programa em Python ====" )
+nome = input ( 'Qual seu nome? ' )
+print ( 'Welcome', nome, 'to Python Programming!!' )
+n1 = input('digite um valor: ')
+print(type(n1))

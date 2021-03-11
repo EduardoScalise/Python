@@ -1,0 +1,6 @@
+print('='*50)
+nome = input('Qual seu nome: ')
+print('Prazer em te conhecer {:=^20}!'.format(nome))
+
+nome = input('Qual seu sobre nome: ')
+print('Welcome to Python Programming {:^20}!'.format(nome))

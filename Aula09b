@@ -1,0 +1,19 @@
+frase = '     Course of Python Language!     '
+print(frase)
+print(frase[15:22])
+frase1 = frase.strip().split()
+
+print(frase1)
+
+print(frase.upper().count('A'))  # Deixa todas letras em maiusculas e conta quantas letras A tem a variável
+print(len(frase))  # Conta todas letras incluindo os espaços do ínico e fim da variável
+print(len(frase.strip())) # conta as letras excluido os espaços do inicio e fim da variável
+
+frase = frase.strip().replace('Python Language','Android Programming')
+print(frase)
+print('Course' in frase)
+print('Python' in frase)
+
+print(frase)
+print(frase[0])
+print(frase1[0][1])  # Pega a primeira palavra da variável e pega seu segundo caractere
